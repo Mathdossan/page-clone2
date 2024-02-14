@@ -1,0 +1,58 @@
+* {
+    
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+}
+/* Códigos do topo*/
+#topo {
+margin-bottom: 30px;
+padding: 20px;
+width: 1440px;
+height: 56px;
+display: flex;
+flex-grow: 1;
+justify-content: space-between;
+
+}
+.spctop {
+padding-right: 25px;  
+}
+#barra {
+width: 430px;
+height: 40px;
+border: solid 1px black;
+text-align: right;
+}
+.imgtop {
+height: 75%;    
+}
+/* Estilização da barra lateral*/
+aside {
+    width: 218px;
+    height: 968px;
+    padding: 24px;
+    gap: 22px;
+    display: grid;
+    grid-template: repeat(10, 50px) / 1fr;
+}
+aside span {
+    place-self: start;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+/* Estilização da main*/
+main {
+    width: 1182px;
+    height: 968px;
+    padding: 24px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+}
+
+#sep {
+    display: flex;
+}
+
